@@ -5,3 +5,7 @@ matplotlib
 seaborn
 statsmodels
 fbprophet
+ace_tools
+pytorch
+tensorflow
+keras
