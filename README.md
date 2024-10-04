@@ -6,7 +6,7 @@
 - Mahmudul Hasan
 
 ## Overview
-This project focuses on analyzing the temporal trends and environmental factors associated with Nipah virus outbreaks in Bangladesh from 2001 to 2022. The goal is to identify key patterns in the data and develop a predictive model to forecast potential outbreaks for the next decade.
+This project focuses on analyzing the temporal trends and environmental factors associated with Nipah virus outbreaks in Bangladesh from 2001 to 2024. The goal is to identify key patterns in the data and develop a predictive model to forecast potential outbreaks until 2030.
 
 ## Objectives
 1. **Trend Analysis**: Explore the temporal patterns in the number of infections and deaths over the 22-year period.
