@@ -9,7 +9,7 @@
 This project focuses on analyzing the temporal trends and environmental factors associated with Nipah virus outbreaks in Bangladesh from 2001 to 2024. The goal is to identify key patterns in the data and develop a predictive model to forecast potential outbreaks until 2030.
 
 ## Objectives
-1. **Trend Analysis**: Explore the temporal patterns in the number of infections and deaths over the 22-year period.
+1. **Trend Analysis**: Explore the temporal patterns in the number of infections and deaths over the 24-year period.
 2. **Correlation Analysis**: Investigate the relationship between environmental factors (e.g., temperature, humidity, rainfall) and the occurrence of Nipah virus outbreaks.
 3. **Predictive Modeling**: Develop a time series model to predict future outbreaks based on historical data.
 
@@ -49,7 +49,7 @@ The dataset used in this analysis includes:
 The analysis indicates that environmental factors play a critical role in the dynamics of Nipah virus transmission. While the predictive model offers insights for the near future, it must be used cautiously due to uncertainties associated with long-term predictions.
 
 ## Limitations
-- The dataset only covers 22 years, which may not capture the full variability of the outbreaks.
+- The dataset only covers 24 years, which may not capture the full variability of the outbreaks.
 - Future environmental changes and public health interventions could significantly alter the transmission dynamics, affecting the model's accuracy.
 
 ## Future Work
