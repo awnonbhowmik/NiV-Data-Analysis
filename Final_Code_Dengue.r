@@ -4,7 +4,7 @@ rm(list=ls())
 ls()
 
 ## Provide  the location where data is stored ##
-data<-read.csv('/home/saad/Desktop/Programming/Python/projects/research/NiV-Data-Analysis/Degue_Data.csv', header=TRUE)
+data<-read.csv('/home/abhowmik/Downloads/Degue_Data.csv', header=TRUE)
 attach(data)
 names(data)
 
@@ -73,7 +73,7 @@ data<- data.frame(Infected_Cases= c(y),
 ## Need to install the following package to produce pairwise plot ##
 install.packages("PerformanceAnalytics")
 library(PerformanceAnalytics)
-# pdf(file="Pair.pdf")
+pdf(file="Pair.pdf")
 
 chart.Correlation(data, histogram = TRUE, method = "pearson")
 dev.off()
