@@ -6,12 +6,12 @@
 - Mahmudul Hasan
 
 ## Overview
-This project focuses on analyzing the temporal trends, environmental factors, and population dynamics associated with Nipah virus outbreaks in Bangladesh from 2001 to 2024. The goal is to identify key patterns in the data, explore correlations between variables, and gain insights into the influence of rural and urban population changes on infection rates.
+This project analyzes the temporal trends, environmental factors, and population dynamics associated with Nipah virus outbreaks in Bangladesh from 2001 to 2024. The goal is to identify key patterns in the data, explore correlations between variables, and gain insights into the influence of rural and urban population changes on infection rates.
 
 ## Objectives
-1. **Trend Analysis**: Explore the temporal patterns in the number of infections and deaths over the 24-year period.
-2. **Correlation Analysis**: Investigate the relationship between environmental factors (e.g., temperature, humidity, rainfall), population dynamics (rural and urban), and the occurrence of Nipah virus outbreaks.
-3. **Visualizations**: Generate heatmaps, scatter plots, and pairplots to visually interpret relationships in the data.
+1. **Trend Analysis**: Explore the temporal patterns in the number of infections and deaths over the 24 years.
+2. **Correlation Analysis**: Investigate the relationship between environmental factors (e.g., temperature, humidity, rainfall), population dynamics (rural and urban), and Nipah virus outbreaks.
+3. **Visualizations**: Generate heatmaps, scatter plots, and pair plots to visually interpret relationships in the data.
 
 ## Data Description
 The dataset used in this analysis includes:
@@ -71,8 +71,8 @@ The analysis indicates that environmental and population factors play a critical
 ### Installation
 Clone the repository and install the required dependencies:
 ```bash
-git clone https://github.com/yourusername/nipah-virus-analysis.git
-cd nipah-virus-analysis
+git clone https://github.com/yourusername/NiV-Data-Analysis.git
+cd Niv-Data-Analysis
 pip install -r requirements.txt
 
 ## Getting Started
@@ -85,8 +85,8 @@ pip install -r requirements.txt
 ### Installation
 Clone the repository and install the required dependencies:
 ```bash
-git clone https://github.com/yourusername/nipah-virus-analysis.git
-cd nipah-virus-analysis
+git clone https://github.com/yourusername/Niv-Data-Analysis.git
+cd Niv-Data-Analysis
 pip install -r requirements.txt
 ```
 
