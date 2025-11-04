@@ -50,3 +50,4 @@ class ARIMA:
         plt.savefig(output_path, dpi=220, format="png")
 
         plt.show()
+        plt.close()

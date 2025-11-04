@@ -26,7 +26,7 @@ class Dataset:
             {col: 2 for col in df.columns if col not in ["Year", "Infected", "Death"]}
         )
 
-        df.set_index("Year")
+        df.set_index("Year", inplace=True)
 
         df.index = pd.period_range(start=2001, end=2024, freq="Y")
 
