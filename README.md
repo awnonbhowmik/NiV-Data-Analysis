@@ -72,21 +72,7 @@ The analysis indicates that environmental and population factors play a critical
 Clone the repository and install the required dependencies:
 ```bash
 git clone https://github.com/yourusername/NiV-Data-Analysis.git
-cd Niv-Data-Analysis
-pip install -r requirements.txt
-
-## Getting Started
-
-### Prerequisites
-- Python 3.6+
-- Jupyter Notebook
-- Required Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels`
-
-### Installation
-Clone the repository and install the required dependencies:
-```bash
-git clone https://github.com/yourusername/Niv-Data-Analysis.git
-cd Niv-Data-Analysis
+cd NiV-Data-Analysis
 pip install -r requirements.txt
 ```
 
