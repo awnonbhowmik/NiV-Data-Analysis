@@ -42,11 +42,14 @@ class ARIMA:
         plt.title("ARIMA Model")
         plt.legend()
 
+        # Sanitize trend_col to prevent path traversal
+        safe_col = os.path.basename(trend_col)
+
         # Save the plot
-        output_path = os.path.join(self.out_dir, f"arima_forecast_{trend_col}.eps")
+        output_path = os.path.join(self.out_dir, f"arima_forecast_{safe_col}.eps")
         plt.savefig(output_path, dpi=220, format="eps")
 
-        output_path = os.path.join(self.out_dir, f"arima_forecast_{trend_col}.png")
+        output_path = os.path.join(self.out_dir, f"arima_forecast_{safe_col}.png")
         plt.savefig(output_path, dpi=220, format="png")
 
         plt.show()

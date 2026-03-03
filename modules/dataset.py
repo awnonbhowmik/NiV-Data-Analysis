@@ -19,7 +19,7 @@ class Dataset:
     # 2. Rounds all other columns to 2 decimal places
     def _clean_data(self, file_path: str) -> pd.DataFrame:
 
-        df = pd.read_excel(file_path)
+        df = pd.read_csv(file_path)
 
         # Apply formatting for other columns
         df = df.round(
